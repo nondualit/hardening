@@ -75,7 +75,7 @@ apt-get clean -y
 
 # Set a strong password policy
 
-echo "password  requisite      pam_cracklib.so retry=3 minlen=8 difok=3 reject_username minclass=3 maxrepeat=2" >> /etc/pam.d/common-password
+echo "password  requisite      pam_cracklib.so retry=3 minlen24 difok=3 reject_username minclass=3 maxrepeat=2" >> /etc/pam.d/common-password
 
 echo "password  required      pam_pwquality.so try_first_pass local_users_only retry=3" >> /etc/pam.d/common-password
 
