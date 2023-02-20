@@ -1,5 +1,5 @@
 # by Iman Sadegh
-# minor updates by Anibal Ojeda 
+# Updates by Anibal Ojeda 
 
 # Update the package repository
 
@@ -14,6 +14,8 @@ apt-get install -y ufw
 ufw default deny incoming
 
 ufw default allow outgoing
+
+# Add or remove firewall rules you may need
 
 ufw allow 22/tcp # allow incoming SSH traffic
 
