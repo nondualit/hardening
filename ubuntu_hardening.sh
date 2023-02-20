@@ -95,9 +95,7 @@ echo "* hard core 0" >> /etc/security/limits.conf
 
 
 
-# Log the contents of the /etc/passwd, /etc/shadow, and /etc/group files
-
-chmod 600 /etc/passwd
+# Log the contents of /etc/shadow, and /etc/group files
 
 chmod 600 /etc/shadow
 
